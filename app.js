@@ -9,6 +9,11 @@ var p1Display = document.querySelector( "#p1Display" );
 var p2Display = document.querySelector( "#p2Display" );
 
 var gameOver = false;
+var winningScore = 5;
+
+var winningScoreDisplay = document.querySelector( "#winningScoreDisplay" );
+
+winningScoreDisplay.textContent = winningScore;
 
 p1Button.addEventListener( "click", function() {
 	p1Score++;
